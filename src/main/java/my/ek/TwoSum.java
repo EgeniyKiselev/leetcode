@@ -10,6 +10,10 @@ import java.util.Set;
  */
 public class TwoSum {
 
+    /**
+     * Time complexity: O(n)
+     * Space complexity: O(n)
+     */
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
 
