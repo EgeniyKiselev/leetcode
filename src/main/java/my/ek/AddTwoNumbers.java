@@ -5,6 +5,8 @@ package my.ek;
  */
 public class AddTwoNumbers {
 
+    // Time : O(Max(l1.size, l2,size)
+    // Space: O(Max(l1.size, l2,size)
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode res = new ListNode(0);
         ListNode prev = res;
